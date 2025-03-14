@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme/Série Fictícia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .hero-section {
+            background-image: url('capa.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .sinopse-section {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+
+        .trailer-section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .curiosidades-section {
+            background-color: #e9ecef;
+            padding: 40px 0;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="fixed-top bg-dark py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="text-white">O Exorcista de Tubarões</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="#sinopse">Sinopse</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#elenco">Elenco</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#trailer">Trailer</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#curiosidades">Curiosidades</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div>
+            <h2 class="display-4">O Exorcista de Tubarões</h2>
+            <p class="lead">Quando um tubarão possuído começa a aterrorizar as águas de uma pequena cidade litorânea, um padre improvável será chamado para realizar um exorcismo do mais mortal dos inimigos.</p>
+        </div>
+    </section>
+
+    <section id="sinopse" class="sinopse-section">
+        <div class="container">
+            <h2>Sinopse</h2>
+            <p class="text-justify">
+                Após uma série de ataques violentos em uma cidade costeira, a população se vê aterrorizada por um tubarão que parece estar possuído por uma força demoníaca. A situação se complica quando o padre Dominic, um exorcista desacreditado, é chamado para enfrentar essa criatura sobrenatural. Armado apenas com sua fé e alguns métodos improváveis, ele deve agora realizar o exorcismo mais estranho e mortal de sua carreira. Uma batalha épica entre o bem e o mal acontece nas águas turvas do oceano, onde o terror e a fé se enfrentam em uma luta pela sobrevivência.           
+            </p>
+        </div>
+    </section>
+
+    <section id="elenco" class="container py-5">
+        <h2>Elenco</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="padre.png" class="card-img-top" alt="Padre Dominic">
+                    <div class="card-body">
+                        <h5 class="card-title">Padre Dominic</h5>
+                        <p class="card-text">O exorcista cético, um padre que foi desacreditado pela igreja, mas ainda possui fé suficiente para enfrentar as forças do mal. Um homem de fé, mas também com um passado complicado. Ele se vê forçado a lutar contra algo que nunca imaginou em sua vida, um tubarão possuído por demônios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="maria.png" class="card-img-top" alt="Personagem 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Detetive Maria</h5>
+                        <p class="card-text">A detetive local que inicialmente não acredita na história de possessão, mas acaba sendo forçada a enfrentar a realidade sobrenatural. Uma mulher determinada a resolver os crimes, até que os acontecimentos se tornam cada vez mais estranhos e impossíveis de ignorar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="tubarao.jpg" class="card-img-top" alt="Personagem 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tubarão Possuído</h5>
+                        <p class="card-text">O grande antagonista da história, o tubarão que foi possuído por um demônio, atacando a cidade e aterrorizando os moradores. Não é apenas um tubarão comum, mas uma criatura demoníaca com poderes sobrenaturais, tornando cada ataque ainda mais aterrorizante.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trailer" class="trailer-section">
+        <h2>Trailer</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SEzmiOIg5jY" allowfullscreen></iframe>
+        </div>
+    </section>    
+
+    <section id="curiosidades" class="curiosidades-section">
+        <div class="container">
+            <h2>Curiosidades</h2>
+            <div class="accordion" id="accordionCuriosidades">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Curiosidade 1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCuriosidades">
+                        <div class="accordion-body">
+                            O filme foi filmado em locações reais em uma praia da costa leste, mas as cenas mais tensas foram feitas em um tanque de água controlado.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Curiosidade 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCuriosidades">
+                        <div class="accordion-body">
+                            O design do tubarão possuído foi inspirado em filmes clássicos de terror dos anos 80, misturando efeitos práticos com CGI.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Curiosidade 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionCuriosidades">
+                        <div class="accordion-body">
+                            O conceito do filme nasceu de uma piada entre os criadores, mas logo se transformou em uma ideia séria após a combinação do tema de tubarão e o terror sobrenatural.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Curiosidade 4
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionCuriosidades">
+                        <div class="accordion-body">
+                            O ator que interpreta o Padre Dominic, John Collins, teve que passar por treinamento físico e de mergulho para as cenas subaquáticas.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Curiosidade 5
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionCuriosidades">
+                        <div class="accordion-body">
+                            O filme fez tanto sucesso nas exibições iniciais que gerou rumores de uma sequência, "Shark Exorcist 2: The Abyss".
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Lucas e Matheus | <a href="https://www.instagram.com" class="text-white">Instagram</a> | <a href="https://www.twitter.com" class="text-white">Twitter</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
